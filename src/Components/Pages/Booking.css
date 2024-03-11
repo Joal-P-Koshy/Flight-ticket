@@ -1,0 +1,30 @@
+.booking{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    place-items: center;
+}
+
+.form-book{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    row-gap: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.form-wrap{
+    border: 1px solid whitesmoke;
+    padding: 5%;
+    border-radius: 20px;
+    
+}
+
+.drops{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}

@@ -1,0 +1,35 @@
+
+
+.navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: whitesmoke;
+    text-shadow: 2px 2px 5px #000000;
+    transition: all 0.3s ease-in;
+    text-decoration: none; 
+}
+.navbar-brand:hover{
+    color: #aadeff;
+    text-shadow: none;
+}
+
+.navbar-nav{
+    margin-left: 55%;
+    gap: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link{
+    color: whitesmoke;
+    font-weight: 500;
+    transition: all 0.3s ease-in;
+}
+
+.nav-link:hover{
+    background-color: rgb(0, 102, 255);
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+

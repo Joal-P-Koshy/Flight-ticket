@@ -1,0 +1,56 @@
+.sec-tic{
+    width: 100%;
+    height: 85vh;
+    display: grid;
+    place-items: center;
+}
+
+.main-tic{
+    width: 70vw;
+    height: 50vh;
+    margin: auto;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3.5fr 1fr;
+}
+
+.tic-head{
+    width: 100%;
+    background: #2560ff;
+    background: linear-gradient(0deg, #2560ff 0%, #3fbbff 57%);    display: flex;
+    align-items: center;
+    color: whitesmoke;
+    column-gap: 10px;
+    
+}
+
+.tic-foot{
+    width: 100%;
+    background: #3fbbff;
+    background: linear-gradient(0deg, rgba(63,187,255,1)0%,  rgba(37,96,255,1) 100%);}
+
+.tic-logo{
+    font-size: 30px;
+}
+
+.logo-head{
+    letter-spacing: 2px;
+}
+
+.tic-content{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto;
+    place-items: center;
+}
+
+.us-lg{
+    font-size: 100px;
+}
+
+.barcode{
+    font-size: 30px;
+}
